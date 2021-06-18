@@ -31,7 +31,7 @@ namespace WebProdutos1.Models
         public string Categoria { get; set; }
 
         [Required(ErrorMessage = "* O campo valor unitário é de preenchimento obrigatório")]
-        [Range(1, 100, ErrorMessage = "* O campo aceita somente valores entre 1 e 1000 R$")]
+        [Range(1, 1000, ErrorMessage = "* O campo aceita somente valores entre 1 e 1000 R$")]
         public int Vlrunit { get; set; }
 
     }
